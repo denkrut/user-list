@@ -1,0 +1,17 @@
+.db-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    min-width: 30%;
+    width: 60%;
+
+  
+}
+
+@media (max-width: 765px){
+    .db-container{
+        width: auto;
+        padding: 0 0 0 0 ;
+    }
+}

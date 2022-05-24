@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -24,8 +24,11 @@
   color: white;
 }
 
+
+
 .App-link {
   color: #61dafb;
+
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +38,10 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.App {
+  /* padding: 30px; */
+  font-family: "Akshar", sans-serif;
+
 }
+

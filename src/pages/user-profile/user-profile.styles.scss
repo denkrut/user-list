@@ -1,0 +1,33 @@
+.profile-container{
+    max-width: 400px;    
+    
+    margin: 45px auto;
+    // border: 2px solid rgb(172, 177, 177);
+    // border-radius: 8px;
+    // box-shadow: 3px 3px rgb(172, 177, 177);
+    border: 1px solid #0a0101;
+    border-radius: 8px;
+    // box-shadow: 10px 12px rgb(94, 158, 158);
+    box-shadow: 6px 6px 12px #9c9595,
+    -6px -6px 12px #ffffff;
+
+    .profile-header-text{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    
+ 
+   
+  
+}
+
+@media (max-width: 765px) {
+    .profile-container{
+        width: auto;
+        margin: 50px 10px ;
+        padding: 0 0 0 0;
+    }
+}
